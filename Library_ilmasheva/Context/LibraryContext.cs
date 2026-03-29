@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace praktika27e.Context
+namespace Library_ilmasheva.Context
 {
     public class LibraryContext : DbContext
     {

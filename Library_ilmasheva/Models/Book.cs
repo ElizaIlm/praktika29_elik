@@ -1,5 +1,4 @@
-﻿using Library_ilmasheva.Classes.praktika27e.Classes;
-using Library_ilmasheva.Classes;
+﻿using Library_ilmasheva.Classes;
 using System;
 using System.Text.RegularExpressions;
 using System.Windows;
