@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Library_ilmasheva.Classes.Database
 {
-    internal class Config
+    public class Config
     {
+        public static readonly string connection = "server=localhost;uid=root;pwd=;database=LibraryCatalog";
+        public static readonly MySqlServerVersion version = new MySqlServerVersion(new Version(8, 0, 11));
     }
 }
