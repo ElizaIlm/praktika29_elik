@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Library_ilmasheva.Views.Items"
             mc:Ignorable="d"
             HorizontalAlignment="Stretch" Margin="5"
-            FontFamily="Bahnschrift Light Condensed">
+              FontFamily="Bahnschrift Light Condensed">
     <UserControl.Resources>
         <Style TargetType="Button" x:Key="Update">
             <Setter Property="Background" Value="#ff2dd61b"/>

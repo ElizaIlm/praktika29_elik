@@ -20,9 +20,10 @@ namespace Library_ilmasheva.Views
     /// </summary>
     public partial class Main : Page
     {
-        public Main()
+        public Main(object Context)
         {
             InitializeComponent();
+            DataContext = Context;
         }
     }
 }

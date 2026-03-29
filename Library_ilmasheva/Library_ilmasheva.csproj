@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="Images\ic-book.jpg" />
+    <None Remove="Images\ic-task.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,9 @@
 
   <ItemGroup>
     <Resource Include="Images\ic-book.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ic-task.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

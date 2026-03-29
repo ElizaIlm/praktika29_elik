@@ -1,8 +1,7 @@
-﻿using Library_ilmasheva.Classes.praktika27e.Classes;
-using Library_ilmasheva.Classes;
-using Library_ilmasheva.ViewModels;
-using Library_ilmasheva;
-using System.Windows;
+﻿using Library_ilmasheva.Classes;
+using Library_ilmasheva.Models;
+using Library_ilmasheva.Views;
+using System;
 
 namespace Library_ilmasheva.ViewModels
 {
